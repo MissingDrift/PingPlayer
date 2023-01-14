@@ -1,0 +1,38 @@
+# CONFIGURATION
+
+# PLACEHOLDERS:
+# %target% = Player
+# %ping% = Ping
+
+ping-command:
+  ping-message: "&a[Ping] &7Your ping is: &a%ping%ms"
+  ping-target-message: "&a[Ping] &7The ping of &a%target% &7is: &a%ping%ms"
+
+permission-system:
+  enabled: false
+  no-perm-message: "&cYou do not have permissions to execute this command."
+
+others-ping:
+  # Set this to false if you want to DISALLOW users to check the ping of another player.
+  show-other-players-ping: true
+  not-allowed-message: "&cYou do not have permission to check the ping of other players."
+  player-not-found: "&cThe specified player is not online."
+
+
+sound-manager:
+  enabled: true
+  sound-type: "BLOCK_NOTE_BLOCK_PLING"
+  # min 0.0 - max 1.0
+  volume: 1.0
+  # playing speed 1.0 = normal speed, 0.5 = half speed
+  pitch: 1.0
+
+tablist:
+  enabled: true
+  show-real-name: true
+  # Set "" to disable
+  prefix: "&7[&a%ping%ms&7]"
+  # Set "" to disable
+  suffix: ""
+  # Update tablist rate in seconds
+  update-delay: 5

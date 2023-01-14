@@ -1,0 +1,10 @@
+name: Pingplayer
+version: '${project.version}'
+main: missingdrift.pingplayer.Pingplayer
+api-version: 1.19
+authors: [ MissingDrift ]
+commands:
+  ping:
+    description: The main command.
+  pingreload:
+    description: Reloads the plugin.
